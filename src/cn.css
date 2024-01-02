@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --background:#F3F8FF;
+    --text:#88AB8E;
+    --heading:#AFC8AD;
+}
+#root .cse{
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1rem;
+    padding:1rem;
+}
+.cse .cn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.cse .cn h2{
+    color: var(--heading);
+}
+.cse .cn p{
+    color: var(--text);
+}
+.cn button{
+    background-color: var(--text);
+    border: 0.1rem solid var(--heading);
+    padding:0.3rem 0.5rem;
+    border-radius: 0.5rem;
+}
+.cn button:hover{
+    scale: 1.1;
+}
+.cn button:active{
+    scale: 0.9;
+}
+.cn button a{
+    color: var(--background);
+}
+.cn video{
+    width: 80%;
+}
