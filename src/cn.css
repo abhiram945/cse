@@ -48,3 +48,13 @@
 .cn video{
     width: 80%;
 }
+.cn .lab{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    & p{
+        font-size: 2rem;
+        color: #88AB8E;
+    }
+}

@@ -10,7 +10,9 @@ const Home=()=>{
             <p>This is a temporary site for reference</p>
         </div>
         <nav>
-            <Link to="/cse/cn">Computer Networks</Link><br></br>
+            <Link to="/cse/cn">Computer Networks</Link><br/>
+            <Link to="/cse/cd">Compiler Design</Link><br/>
+            <Link to="/cse/pad">Pattern and Anamoly Detection</Link><br/>
             <Link to="/cse/dp">One Note</Link>
         </nav>
         <div className="designer">
@@ -21,7 +23,6 @@ const Home=()=>{
 ReactDOM.createRoot(document.getElementById('root')).render(
     <>
     <BrowserRouter>
-    
         <Routes>
             <Route exact path="/cse" element={<Home/>}></Route>
             <Route path="/cse/cn" element={<Cn/>}></Route>
