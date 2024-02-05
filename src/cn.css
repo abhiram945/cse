@@ -5,9 +5,9 @@
     text-decoration: none;
 }
 :root{
-    --background:#F3F8FF;
-    --text:#88AB8E;
-    --heading:#AFC8AD;
+    --background:#DDE6ED;
+    --text:#526D82;
+    --heading:#27374D;
 }
 #root .cse{
     background-color: var(--background);
@@ -32,8 +32,8 @@
 }
 .cn button{
     background-color: var(--text);
-    border: 0.1rem solid var(--heading);
     padding:0.3rem 0.5rem;
+    border:none;
     border-radius: 0.5rem;
 }
 .cn button:hover{
@@ -50,11 +50,21 @@
 }
 .cn .lab{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     gap:1rem;
     align-items: center;
     & p{
         font-size: 2rem;
-        color: #88AB8E;
     }
+}
+.cn .lab a{
+    color: #27374D;
+    background-color: #526D82;
+    width: 7.5rem;
+    text-align: center;
+    padding:0.25rem 0;
+    border-radius: 0.5rem;
+}
+.footer h3{
+    color: #27374D;
 }

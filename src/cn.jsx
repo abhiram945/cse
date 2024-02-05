@@ -28,10 +28,9 @@ const Cn=()=>{
                 </a>
             </button>
             <p>Download the setup file and follow the instructions as shown in the following video tutorial</p>
-            <p>Watch the complete video first then try to install.</p>
             <video src={ciscotut} controls poster="https://www.packettracernetwork.com/images/packettracer800/packettracer-80-splash.jpg" preload="none"/>
             <div className="lab">
-                <p>Lab experiments .pkt files</p>
+                <p>Lab experiments .pkt files : </p>
                 <a href={exp1}>Exp 1</a>
                 <a href={exp2a}>Exp 2a</a>
                 <a href={exp2b}>Exp 2b</a>
