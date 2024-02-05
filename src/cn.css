@@ -51,14 +51,20 @@
 .cn .lab{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap:1rem;
     align-items: center;
     & p{
         font-size: 2rem;
     }
 }
+.lab > p{
+    display: block;
+    word-break:keep-all;
+    width: 100%;
+}
 .cn .lab a{
-    color: #27374D;
+    color: #DDE6ED;
     background-color: #526D82;
     width: 7.5rem;
     text-align: center;
@@ -67,4 +73,9 @@
 }
 .footer h3{
     color: #27374D;
+}
+@media (max-width:449px){
+    .cn .lab > p{
+        font-size: 1.5rem;
+    }
 }

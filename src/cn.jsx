@@ -15,7 +15,7 @@ const Cn=()=>{
     return <>
     <div className="cse">
         <div className="cn" id="cn">
-            <h2>Computer Networks</h2>
+            <h2>COMPUTER NETWORKS</h2>
             <p>A guide to install CISCO PACKET TRACKER</p>
             <button>
                 <a href="https://ia601604.us.archive.org/20/items/cisco-packet-tracer-821-ubuntu-64bit/CiscoPacketTracer_821_Windows_64bit.exe">
