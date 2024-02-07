@@ -1,17 +1,23 @@
 import React from "react";
+import { useRef } from "react";
 import './cn.css';
-import ciscotut from '../src/assets/Cisco_packet_Tracker.mp4';
-import exp1 from '../src/assets/Exp1.pkt'
-import exp2a from '../src/assets/Exp2_a.pkt'
-import exp2b from '../src/assets/Exp2_b.pkt'
-import exp3 from '../src/assets/Exp3.pkt'
-import exp4_bus from '../src/assets/Exp4_bus.pkt'
-import exp4_hybrid from '../src/assets/Exp4_hybrid.pkt'
-import exp4_mesh from '../src/assets/Exp4_mesh.pkt'
-import exp4_ring from '../src/assets/Exp4_ring.pkt'
-import exp4_star from '../src/assets/Exp4_star.pkt'
-import exp5 from '../src/assets/Exp5_a.pkt'
+import ciscotut from '../src/assets/cn/Cisco_packet_Tracker.mp4';
+import exp1 from '../src/assets/cn/Exp1.pkt'
+import exp2a from '../src/assets/cn/Exp2_a.pkt'
+import exp2b from '../src/assets/cn/Exp2_b.pkt'
+import exp3 from '../src/assets/cn/Exp3.pkt'
+import exp4_bus from '../src/assets/cn/Exp4_bus.pkt'
+import exp4_hybrid from '../src/assets/cn/Exp4_hybrid.pkt'
+import exp4_mesh from '../src/assets/cn/Exp4_mesh.pkt'
+import exp4_ring from '../src/assets/cn/Exp4_ring.pkt'
+import exp4_star from '../src/assets/cn/Exp4_star.pkt'
+import exp5 from '../src/assets/cn/Exp5_a.pkt'
+import exp6 from '../src/assets/cn/exp6.zip'
 const Cn=()=>{
+    const alertMsg = useRef(null);
+    const handleAlert=()=>{
+        alert("Commands are available in screenshots. Click OK to download the files");
+    }
     return <>
     <div className="cse">
         <div className="cn" id="cn">
@@ -41,6 +47,7 @@ const Cn=()=>{
                 <a href={exp4_ring}>Exp 4-ring</a>
                 <a href={exp4_star}>Exp 4-star</a>
                 <a href={exp5}>Exp 5</a>
+                <a href={exp6} download="exp6" ref={alertMsg} onClick={handleAlert}>Exp 6 with outputs</a>
             </div>
         </div>
         

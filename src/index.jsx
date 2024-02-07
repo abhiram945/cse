@@ -11,9 +11,7 @@ const Home=()=>{
         </div>
         <nav>
             <Link to="/cse/cn">Computer Networks</Link><br/>
-            <Link to="/cse/cd">Compiler Design</Link><br/>
-            <Link to="/cse/pad">Pattern and Anamoly Detection</Link><br/>
-            <Link to="/cse/dp">One Note</Link>
+            <Link to="/cse/dp">One Note</Link><br/>
         </nav>
         <div className="designer">
             <p>Created by Abhiram with React Js</p>

@@ -1,6 +1,6 @@
 import React from "react";
 import './dp.css';
-import onenotetut from '../src/assets/onenote.mp4';
+import onenotetut from '../src/assets/dp/onenote.mp4';
 const Dp=()=>{
     return <>
         <div>

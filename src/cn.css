@@ -75,6 +75,9 @@
     color: #27374D;
 }
 @media (max-width:449px){
+    .cn video{
+        width: 95%;
+    }
     .cn .lab > p{
         font-size: 1.5rem;
     }
