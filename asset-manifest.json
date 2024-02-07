@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/cse/static/css/main.ff599203.css",
-    "main.js": "/cse/static/js/main.d3ae3b3d.js",
+    "main.css": "/cse/static/css/main.a7ddcca7.css",
+    "main.js": "/cse/static/js/main.f278307f.js",
     "static/media/onenote.mp4": "/cse/static/media/onenote.36cc6744f8eeb47b34cc.mp4",
     "static/media/Cisco_packet_Tracker.mp4": "/cse/static/media/Cisco_packet_Tracker.3b6c979aff8f84ba458b.mp4",
+    "static/media/exp6.zip": "/cse/static/media/exp6.a77f129b0bd35d342852.zip",
     "static/media/Exp4_hybrid.pkt": "/cse/static/media/Exp4_hybrid.de84b14d5a2a1329eb9d.pkt",
     "static/media/Exp4_bus.pkt": "/cse/static/media/Exp4_bus.a2ddbc40ad7df6b2b377.pkt",
     "static/media/Exp5_a.pkt": "/cse/static/media/Exp5_a.5555ba6e7315eb488202.pkt",
@@ -15,11 +16,11 @@
     "static/media/Exp1.pkt": "/cse/static/media/Exp1.8a9de43525b86a5a1c95.pkt",
     "static/media/Exp2_a.pkt": "/cse/static/media/Exp2_a.df53ec46dbc7c7d9a96f.pkt",
     "index.html": "/cse/index.html",
-    "main.ff599203.css.map": "/cse/static/css/main.ff599203.css.map",
-    "main.d3ae3b3d.js.map": "/cse/static/js/main.d3ae3b3d.js.map"
+    "main.a7ddcca7.css.map": "/cse/static/css/main.a7ddcca7.css.map",
+    "main.f278307f.js.map": "/cse/static/js/main.f278307f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff599203.css",
-    "static/js/main.d3ae3b3d.js"
+    "static/css/main.a7ddcca7.css",
+    "static/js/main.f278307f.js"
   ]
 }
