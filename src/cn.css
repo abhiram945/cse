@@ -71,6 +71,22 @@
     padding:0.25rem 0;
     border-radius: 0.5rem;
 }
+.cse .cn .handWritten{
+    width: 100%;
+    margin-top:2.5rem;
+}
+.handWritten p{
+    font-size: 2.5rem;
+    color: var(--heading) !important;
+}
+.handWritten .exp6{
+    width: 100%;
+}
+.exp6 img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
 .footer h3{
     color: #27374D;
 }
@@ -80,5 +96,11 @@
     }
     .cn .lab > p{
         font-size: 1.5rem;
+    }
+    .handWritten p{
+        font-size: 1.5rem;
+    }
+    .exp6 img{
+        width: 97.5%;
     }
 }

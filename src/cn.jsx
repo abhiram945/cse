@@ -1,5 +1,4 @@
 import React from "react";
-import { useRef } from "react";
 import './cn.css';
 import ciscotut from '../src/assets/cn/Cisco_packet_Tracker.mp4';
 import exp1 from '../src/assets/cn/Exp1.pkt'
@@ -13,8 +12,10 @@ import exp4_ring from '../src/assets/cn/Exp4_ring.pkt'
 import exp4_star from '../src/assets/cn/Exp4_star.pkt'
 import exp5 from '../src/assets/cn/Exp5_a.pkt'
 import exp6 from '../src/assets/cn/exp6.zip'
+import exp61 from '../src/assets/cn/exp6written/1.jpg'
+import exp62 from '../src/assets/cn/exp6written/2.jpg'
+import exp63 from '../src/assets/cn/exp6written/3.jpg'
 const Cn=()=>{
-    const alertMsg = useRef(null);
     const handleAlert=()=>{
         alert("Commands are available in screenshots. Click OK to download the files");
     }
@@ -47,7 +48,15 @@ const Cn=()=>{
                 <a href={exp4_ring}>Exp 4-ring</a>
                 <a href={exp4_star}>Exp 4-star</a>
                 <a href={exp5}>Exp 5</a>
-                <a href={exp6} download="exp6" ref={alertMsg} onClick={handleAlert}>Exp 6 with outputs</a>
+                <a href={exp6} download="exp6" onClick={handleAlert}>Exp 6 with outputs</a>
+            </div>
+            <div className="handWritten">
+                <p>Exp6 handwritten</p>
+                <div className="exp6">
+                    <img src={exp61} alt="exp"></img>
+                    <img src={exp62} alt="exp"></img>
+                    <img src={exp63} alt="exp"></img>
+                </div>
             </div>
         </div>
         
