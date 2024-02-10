@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.css": "/cse/static/css/main.a7ddcca7.css",
-    "main.js": "/cse/static/js/main.f278307f.js",
+    "main.css": "/cse/static/css/main.9af06298.css",
+    "main.js": "/cse/static/js/main.ad7c3492.js",
     "static/media/onenote.mp4": "/cse/static/media/onenote.36cc6744f8eeb47b34cc.mp4",
     "static/media/Cisco_packet_Tracker.mp4": "/cse/static/media/Cisco_packet_Tracker.3b6c979aff8f84ba458b.mp4",
     "static/media/exp6.zip": "/cse/static/media/exp6.a77f129b0bd35d342852.zip",
+    "static/media/2.jpg": "/cse/static/media/2.bed3636e3dfa245fd333.jpg",
+    "static/media/1.jpg": "/cse/static/media/1.0bac3c8324d0bc166623.jpg",
+    "static/media/3.jpg": "/cse/static/media/3.42c9c4a21cbd3b58a4dd.jpg",
     "static/media/Exp4_hybrid.pkt": "/cse/static/media/Exp4_hybrid.de84b14d5a2a1329eb9d.pkt",
     "static/media/Exp4_bus.pkt": "/cse/static/media/Exp4_bus.a2ddbc40ad7df6b2b377.pkt",
     "static/media/Exp5_a.pkt": "/cse/static/media/Exp5_a.5555ba6e7315eb488202.pkt",
@@ -16,11 +19,11 @@
     "static/media/Exp1.pkt": "/cse/static/media/Exp1.8a9de43525b86a5a1c95.pkt",
     "static/media/Exp2_a.pkt": "/cse/static/media/Exp2_a.df53ec46dbc7c7d9a96f.pkt",
     "index.html": "/cse/index.html",
-    "main.a7ddcca7.css.map": "/cse/static/css/main.a7ddcca7.css.map",
-    "main.f278307f.js.map": "/cse/static/js/main.f278307f.js.map"
+    "main.9af06298.css.map": "/cse/static/css/main.9af06298.css.map",
+    "main.ad7c3492.js.map": "/cse/static/js/main.ad7c3492.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7ddcca7.css",
-    "static/js/main.f278307f.js"
+    "static/css/main.9af06298.css",
+    "static/js/main.ad7c3492.js"
   ]
 }
