@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/cse/static/css/main.9af06298.css",
-    "main.js": "/cse/static/js/main.ad7c3492.js",
-    "static/media/onenote.mp4": "/cse/static/media/onenote.36cc6744f8eeb47b34cc.mp4",
+    "main.css": "/cse/static/css/main.a918c8d1.css",
+    "main.js": "/cse/static/js/main.69ba76c3.js",
     "static/media/Cisco_packet_Tracker.mp4": "/cse/static/media/Cisco_packet_Tracker.3b6c979aff8f84ba458b.mp4",
     "static/media/exp6.zip": "/cse/static/media/exp6.a77f129b0bd35d342852.zip",
     "static/media/2.jpg": "/cse/static/media/2.bed3636e3dfa245fd333.jpg",
@@ -19,11 +18,11 @@
     "static/media/Exp1.pkt": "/cse/static/media/Exp1.8a9de43525b86a5a1c95.pkt",
     "static/media/Exp2_a.pkt": "/cse/static/media/Exp2_a.df53ec46dbc7c7d9a96f.pkt",
     "index.html": "/cse/index.html",
-    "main.9af06298.css.map": "/cse/static/css/main.9af06298.css.map",
-    "main.ad7c3492.js.map": "/cse/static/js/main.ad7c3492.js.map"
+    "main.a918c8d1.css.map": "/cse/static/css/main.a918c8d1.css.map",
+    "main.69ba76c3.js.map": "/cse/static/js/main.69ba76c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.9af06298.css",
-    "static/js/main.ad7c3492.js"
+    "static/css/main.a918c8d1.css",
+    "static/js/main.69ba76c3.js"
   ]
 }
