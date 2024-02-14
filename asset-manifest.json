@@ -1,12 +1,21 @@
 {
   "files": {
-    "main.css": "/cse/static/css/main.a918c8d1.css",
-    "main.js": "/cse/static/js/main.69ba76c3.js",
-    "static/media/Cisco_packet_Tracker.mp4": "/cse/static/media/Cisco_packet_Tracker.3b6c979aff8f84ba458b.mp4",
-    "static/media/exp6.zip": "/cse/static/media/exp6.a77f129b0bd35d342852.zip",
+    "main.css": "/cse/static/css/main.443bd770.css",
+    "main.js": "/cse/static/js/main.4cc008f9.js",
     "static/media/2.jpg": "/cse/static/media/2.bed3636e3dfa245fd333.jpg",
     "static/media/1.jpg": "/cse/static/media/1.0bac3c8324d0bc166623.jpg",
     "static/media/3.jpg": "/cse/static/media/3.42c9c4a21cbd3b58a4dd.jpg",
+    "static/media/Screenshot (94).png": "/cse/static/media/Screenshot (94).4333f2d2fae6eccb3543.png",
+    "static/media/Screenshot (95).png": "/cse/static/media/Screenshot (95).3a61a057d5eb76d548ce.png",
+    "static/media/Screenshot (98).png": "/cse/static/media/Screenshot (98).cf0c9769affe66eca370.png",
+    "static/media/Screenshot (97).png": "/cse/static/media/Screenshot (97).1cad2e816ec40c7687b9.png",
+    "static/media/Screenshot (100).png": "/cse/static/media/Screenshot (100).4df629db87d0c85fa991.png",
+    "static/media/Screenshot (99).png": "/cse/static/media/Screenshot (99).9979f5f493c62053c70b.png",
+    "static/media/Screenshot (91).png": "/cse/static/media/Screenshot (91).de4277f12996984c8256.png",
+    "static/media/Screenshot (96).png": "/cse/static/media/Screenshot (96).22e6546b365496f2b286.png",
+    "static/media/Screenshot (93).png": "/cse/static/media/Screenshot (93).0684cfad375284cb66e8.png",
+    "static/media/Screenshot (89).png": "/cse/static/media/Screenshot (89).aefdacfdb7cb8313550d.png",
+    "static/media/Exp6.pkt": "/cse/static/media/Exp6.b85bee687bc860e45bfd.pkt",
     "static/media/Exp4_hybrid.pkt": "/cse/static/media/Exp4_hybrid.de84b14d5a2a1329eb9d.pkt",
     "static/media/Exp4_bus.pkt": "/cse/static/media/Exp4_bus.a2ddbc40ad7df6b2b377.pkt",
     "static/media/Exp5_a.pkt": "/cse/static/media/Exp5_a.5555ba6e7315eb488202.pkt",
@@ -17,12 +26,13 @@
     "static/media/Exp4_star.pkt": "/cse/static/media/Exp4_star.e736404d085b4c547e96.pkt",
     "static/media/Exp1.pkt": "/cse/static/media/Exp1.8a9de43525b86a5a1c95.pkt",
     "static/media/Exp2_a.pkt": "/cse/static/media/Exp2_a.df53ec46dbc7c7d9a96f.pkt",
+    "static/media/Screenshot (92).png": "/cse/static/media/Screenshot (92).a3926e984d9bb91e4588.png",
     "index.html": "/cse/index.html",
-    "main.a918c8d1.css.map": "/cse/static/css/main.a918c8d1.css.map",
-    "main.69ba76c3.js.map": "/cse/static/js/main.69ba76c3.js.map"
+    "main.443bd770.css.map": "/cse/static/css/main.443bd770.css.map",
+    "main.4cc008f9.js.map": "/cse/static/js/main.4cc008f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a918c8d1.css",
-    "static/js/main.69ba76c3.js"
+    "static/css/main.443bd770.css",
+    "static/js/main.4cc008f9.js"
   ]
 }
