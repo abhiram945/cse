@@ -3,8 +3,7 @@
     padding:0;
     box-sizing: border-box;
     text-decoration: none;
-}
-:root{
+}:root{
     --background:#DDE6ED;
     --text:#526D82;
     --heading:#27374D;
@@ -64,8 +63,8 @@
     width: 100%;
 }
 .cn .lab a{
-    color: #DDE6ED;
-    background-color: #526D82;
+    color: var(--background);
+    background-color: var(--text);
     width: 10rem;
     text-align: center;
     padding:0.5rem 0.5rem;
@@ -73,24 +72,20 @@
 }
 .cse .cn .handWritten{
     width: 100%;
-    margin-top:2.5rem;
 }
 .handWritten p{
     font-size: 2.5rem;
     color: var(--heading) !important;
 }
-.handWritten .exp6{
+.handWritten .exp{
     width: 100%;
 }
-.exp6 img{
+.exp img{
+    width: 50%;
     display: block;
     margin: 0 auto;
-    width: 50%;
 }
-.footer h3{
-    color: #27374D;
-}
-@media (max-width:449px){
+@media screen and (max-width:480px){
     .cn video{
         width: 95%;
     }
