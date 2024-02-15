@@ -47,22 +47,14 @@
 .cn video{
     width: 80%;
 }
-.cn .lab{
+.cn .pktFilesContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:2rem;
+    gap:1.5rem;
     align-items: center;
-    & p{
-        font-size: 2rem;
-    }
 }
-.lab > p{
-    display: block;
-    word-break:keep-all;
-    width: 100%;
-}
-.cn .lab a{
+.cn .pktFilesContainer a{
     color: var(--background);
     background-color: var(--text);
     width: 10rem;
@@ -70,32 +62,50 @@
     padding:0.5rem 0.5rem;
     border-radius: 0.5rem;
 }
-.cse .cn .handWritten{
+.cse .cn .handWritten, .cse .cn .outputs{
     width: 100%;
+    margin:2rem 0;
 }
-.handWritten p{
-    font-size: 2.5rem;
+.handWritten p, .outputs p{
+    font-size: 2rem;
     color: var(--heading) !important;
+    margin-bottom: 0.5rem;
 }
-.handWritten .exp{
+.handWritten .pdfsContainer,.outputs .pdfsContainer{
     width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center; 
+    /* for embed */
 }
-.exp img{
-    width: 50%;
-    display: block;
-    margin: 0 auto;
+.pdfsContainer button{
+    padding:1rem;
+    color: var(--background);
+    font-size: 1rem;
+}
+.handWritten .pdfsContainer embed, .outputs .pdfsContainer embed{
+    width: 90%;
+    height: 30rem;
 }
 @media screen and (max-width:480px){
     .cn video{
-        width: 95%;
-    }
-    .cn .lab > p{
-        font-size: 1.5rem;
-    }
-    .handWritten p{
-        font-size: 1.5rem;
-    }
-    .exp6 img{
         width: 97.5%;
+    }
+    .cn .pktFilesContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .cse .cn .handWritten, .cse .cn .outputs{
+        margin:1rem 0;
+    }
+    .handWritten p, .outputs p{
+        font-size: 1.25rem;
+    }
+    .handWritten .pdfsContainer, .outputs .pdfsContainer{
+        grid-template-columns: repeat(1,1fr);
+        gap:1rem;
+    }
+    .handWritten .pdfsContainer embed, .outputs .pdfsContainer embed{
+        height: 20rem;
     }
 }

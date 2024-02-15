@@ -4,9 +4,14 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.dp{
+    background-color: var(--background);
+    padding:0.5rem;
+}
 #root div h1{
     text-align: center;
     padding:0.75rem 0;
+    color: var(--text);
 }
 video{
     display: block;

@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import './cn.css';
 import importAll from "./import";
 const Cn=()=>{
+    const [seeMore, setSeeMore] =useState(false);
     const pktFiles = importAll(require.context('../public/assets/cn/pkt', false, /\.pkt$/));
-    const exp6Handwritten = importAll(require.context('../public/assets/cn/handWritten/exp6', false, /\.(png|jpe?g|svg)$/))
     return <>
     <div className="cse">
-        <div className="cn" id="cn">
+        <div className="cn">
             <h2>COMPUTER NETWORKS</h2>
             <p>A guide to install CISCO PACKET TRACKER</p>
             <button>
@@ -21,18 +21,28 @@ const Cn=()=>{
             </button>
             <p>Download the setup file and follow the instructions as shown in the following video tutorial</p>
             <video src='./assets/cn/Cisco_packet_Tracker.mp4' controls poster="https://www.packettracernetwork.com/images/packettracer800/packettracer-80-splash.jpg" preload="none"/>
-            <div className="lab">
-                <p>Lab experiments .pkt files : </p>
+            <p>Lab experiments .pkt files : </p>
+            <div className="pktFilesContainer">
                 {Object.keys(pktFiles).map((pktFile, index) => (
                     <a key={index} href={`./assets/cn/pkt/${pktFile}`} alt={pktFile}>{pktFile.split('.')[0]}</a>
                 ))}
             </div>
             <div className="handWritten">
-                <p>Handwritten lab</p>
-                <div className="exp">
-                    {Object.keys(exp6Handwritten).map((each, index) => (
-                        <img key={index} src={`./assets/cn/handWritten/exp6/${each}`} alt={each}/>
-                    ))}
+                <p>Handwritten PDFs</p>
+                <div className="pdfsContainer">
+                    <embed type="application/pdf" title="pdf" src="./assets/cn/handWritten/Cn_exp6.pdf"/>
+                    <embed type="application/pdf" title="pdf" src="./assets/cn/handWritten/Cn_exp7.pdf"/>
+                </div>
+            </div>
+            <div className="outputs">
+                <p>Experiment outputs PDFs</p>
+                <div className="pdfsContainer">
+                    {
+                        seeMore ? 
+                        <><embed type="application/pdf" title="pdf" src="./assets/cn/outputs/Cn_exp6.pdf"/>
+                        <embed type="application/pdf" title="pdf" src="./assets/cn/outputs/Cn_exp7a_b.pdf"/></>
+                        :<button onClick={()=>setSeeMore(true)}>Show PDFs</button>
+                    }
                 </div>
             </div>
         </div>

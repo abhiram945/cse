@@ -2,7 +2,7 @@ import React from "react";
 import './dp.css';
 const Dp=()=>{
     return <>
-        <div>
+        <div className="dp">
             <h1>Create One Note link</h1>
             <p>
                 Follow the instructions given in the below video guide to create a One Note link. 
