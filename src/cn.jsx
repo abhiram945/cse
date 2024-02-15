@@ -37,12 +37,8 @@ const Cn=()=>{
             <div className="outputs">
                 <p>Experiment outputs PDFs</p>
                 <div className="pdfsContainer">
-                    {
-                        seeMore ? 
-                        <><embed type="application/pdf" title="pdf" src="./assets/cn/outputs/Cn_exp6.pdf"/>
-                        <embed type="application/pdf" title="pdf" src="./assets/cn/outputs/Cn_exp7a_b.pdf"/></>
-                        :<button onClick={()=>setSeeMore(true)}>Show PDFs</button>
-                    }
+                    <embed type="application/pdf" title="pdf" src="./assets/cn/outputs/Cn_exp6.pdf"/>
+                    <embed type="application/pdf" title="pdf" src="./assets/cn/outputs/Cn_exp7a_b.pdf"/>
                 </div>
             </div>
         </div>
