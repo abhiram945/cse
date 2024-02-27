@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Cn from './cn.jsx';
 import Dp from './dp.jsx';
 import Cd from './cd.jsx';
+import Pad from "./pad.jsx";
 import './index.css';
 const Home=({shrinkNav})=>{
     return<>
@@ -11,6 +12,7 @@ const Home=({shrinkNav})=>{
             <Link to="/cse">Home</Link>
             <Link to="/cse/cn">Computer Networks</Link>
             <Link to="/cse/cd">Compiler Design</Link>
+            <Link to="/cse/pad">PAD</Link>
             <Link to="/cse/dp">One Note</Link>
         </nav>
     </>
@@ -22,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route exact path="/cse" element={<Home shrinkNav={false}/>}></Route>
             <Route path="/cse/cn" element={<><Home shrinkNav={true}/><Cn/></>}></Route>
             <Route path="/cse/cd" element={<><Home shrinkNav={true}/><Cd/></>}></Route>
+            <Route path="/cse/pad" element={<><Home shrinkNav={true}/><Pad/></>}></Route>
             <Route path="/cse/dp" element={<><Home shrinkNav={true}/><Dp/></>}></Route>
         </Routes>
     </BrowserRouter>

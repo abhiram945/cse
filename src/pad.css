@@ -1,0 +1,25 @@
+.pad{
+    width: 100%;
+    padding:1rem;
+}
+.pdfsContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+}
+.downloadOptions{
+    font-size: 1.5rem;
+    margin-top:1rem;
+}
+embed{
+    margin-top:1rem;
+    width: 90%;
+    height: 30rem;
+}
+@media screen and (max-width:480px){
+    .pdfsContainer{
+        grid-template-columns: repeat(1,1fr);
+        gap:1rem;
+    }
+}

@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import './cn.css';
 import importAll from "./import";
 const Cn=()=>{
-    const [seeMore, setSeeMore] =useState(false);
     const pktFiles = importAll(require.context('../public/assets/cn/pkt', false, /\.pkt$/));
     return <>
     <div className="cse">

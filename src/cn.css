@@ -78,11 +78,6 @@
     place-items: center; 
     /* for embed */
 }
-.pdfsContainer button{
-    padding:1rem;
-    color: var(--background);
-    font-size: 1rem;
-}
 .handWritten .pdfsContainer embed, .outputs .pdfsContainer embed{
     width: 90%;
     height: 30rem;
