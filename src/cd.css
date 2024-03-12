@@ -40,6 +40,34 @@
 .exp .images img{
     width: 100%;
 }
+.exp5{
+    padding:1rem 0;
+    height: 100%;
+}
+.exp5 .downloadButtonsContainer{
+    margin:1.5rem 0;
+}
+.exp5 .downloadButtonsContainer a{
+    background-color: #27374D;
+    color:#DDE6ED;
+    padding:0.5rem;
+    margin: 0 1rem;
+}
+.exp5 .instructionsContainer{
+    margin:1rem 0;
+}
+.exp5 .instructionsContainer p{
+    width:100%;
+    line-height: 2rem;
+}
+.instructionsContainer .environmentVariablesSetting{
+    width: 100%;
+    text-align: left;
+}
+.environmentVariablesSetting p{
+    width: 100%;
+    text-align: left;
+}
 @media screen and (max-width: 480px){
     .exp h3{
         text-align: center;
